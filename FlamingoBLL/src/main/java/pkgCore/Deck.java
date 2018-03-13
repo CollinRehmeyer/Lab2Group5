@@ -38,4 +38,17 @@ public class Deck {
 		return ret;
 	}
 	
+	public int getRemaining(Object e)
+	{
+		int count = 0;
+		for(int i = 0; i < cards.size(); i++)
+		{
+			if(cards.get(i).geteRank() == e || cards.get(i).geteSuit() == e)
+				count++;
+		}
+		return count;
+		
+		
+	}
+	
 }

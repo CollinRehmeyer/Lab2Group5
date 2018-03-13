@@ -2,7 +2,6 @@ package pkgCore;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
 import pkgEnum.eRank;
 
 public class Hand {
